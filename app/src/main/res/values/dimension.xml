@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_margin_left">36dp</dimen>
+    <dimen name="edit_margin_rigth">36dp</dimen>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray"
+    tools:context="br.com.chagasappandroid.vipmensagem.activity.ConversaActivity">
+
+    <include
+        android:id="@+id/tb_conversas"
+        layout="@layout/toolbar">
+    </include>
+
+    <ListView
+        android:layout_below="@+id/tb_conversas"
+        android:id="@+id/lv_conversas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_above="@+id/ll_mensagens"
+        android:divider="@null"
+        android:dividerHeight="5dp">
+    </ListView>
+
+        <LinearLayout
+
+            android:id="@+id/ll_mensagens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:backgroundTint="@android:color/white"
+            android:background="@drawable/borda_arredondada"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/edit_mensagem"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/mensagem"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:background="@drawable/editext_sem_linha"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"/>
+
+            <ImageButton
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/borda_arredondada"
+                android:padding="2dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/bt_envia_mensagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_send"
+                android:theme="@style/botaoPadrao" />
+
+        </LinearLayout>
+    
+</RelativeLayout>

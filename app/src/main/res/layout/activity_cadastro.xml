@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.chagasappandroid.vipmensagem.activity.CadastroActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/edit_cadastro_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:hint="@string/digite_seu_nome"
+        android:textColorHint="@color/colorAccent"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edit_cadastro_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:hint="@string/digite_seu_e_mail"
+        android:textColorHint="@color/colorAccent"
+        android:gravity="center"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:hint="Digite sua senha"
+        android:textColorHint="@color/colorAccent"
+        android:gravity="center"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/bt_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:layout_marginTop="30dp"
+        android:text="@string/bt_cadastrar"
+        android:theme="@style/botaoPadrao"/>
+
+</LinearLayout>

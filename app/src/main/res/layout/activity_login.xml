@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.chagasappandroid.vipmensagem.activity.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:hint="@string/digite_email"
+        android:gravity="center"
+        android:textColorHint="@color/colorText"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/edit_text_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:hint="@string/Login"
+        android:gravity="center"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/bt_logar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_rigth"
+        android:text="@string/bt_logar"
+        android:theme="@style/botaoPadrao"/>
+
+    <TextView
+        android:id="@+id/cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sem_conta"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="telaCadastro"/>
+
+
+
+
+
+</LinearLayout>

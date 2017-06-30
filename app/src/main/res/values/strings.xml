@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VipMensagem</string>
+    <string name="digite_email">Digite seu e-mail</string>
+    <string name="cod_pais">+55</string>
+    <string name="cod_area">11</string>
+    <string name="Login">Digite sua senha</string>
+    <string name="bt_logar">Logar</string>
+    <string name="text_titulo">Validação</string>
+    <string name="text_validador">Você receberá um SMS com o código para validar seu número, digite o código recebido por SMS.</string>
+    <string name="bt_validar">Validar</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="digite_seu_e_mail">Digite seu e-mail</string>
+    <string name="bt_cadastrar">Cadastrar</string>
+    <string name="sem_conta">Não possui conta? Cadastre-se aqui!</string>
+    <string name="item_sair">Sair</string>
+    <string name="item_configuraces">Configurações</string>
+    <string name="icon_pesquisar">Pesquisar</string>
+    <string name="icon_adicionar">Adicionar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="conversas">Conversas</string>
+    <string name="contatos">Contatos</string>
+    <string name="mensagem">Mensagem</string>
+
+</resources>
